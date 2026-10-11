@@ -1,0 +1,223 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.grey{
+    background-color: rgb(41, 37, 37);
+    height:65%;
+    width: 43%;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+bottom: 15%;
+}
+.content h2{
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+left: 48%;
+top:19%;
+color: rgb(223, 89, 40) ;
+}
+.content .icons{
+    position: absolute;
+    left:60%;
+    top: 19%;
+    color: antiquewhite;
+    font-size: 15px;
+    gap: 15px;
+    display: flex;
+}
+.content .icons i:hover {
+    color:rgb(223, 89, 40) ;
+    cursor: pointer;
+}
+.content .collection{
+    position: absolute;
+    left:46%;
+    top:35%;
+    color: aliceblue;
+    font-size: 20px;
+}
+.content .Sneakers{
+    position:absolute;
+    left: 46%;
+    top: 40%;
+    color: aliceblue;
+}
+.content .price{
+    position: absolute;
+    left:46%;
+    top:45% ;
+    color: aliceblue;
+    font-size: 20px;
+    gap:15px;
+    display: flex;
+}
+.content .size{
+    position: absolute;
+    left: 46%;
+    top: 50%;
+    color: aliceblue;
+    font-size: small;
+}
+.content .sizes-no{
+    position:absolute;
+    left:49%;
+top:50%;
+color: aliceblue;
+font-size: small;
+margin-left: 12px;
+display: inline-block;
+word-spacing: 20px;
+}
+.content .sizes-no span:hover {
+    color:black;
+    cursor: pointer;
+    color:rgb(223, 89, 40);
+}
+.content .color {
+    position: absolute;
+    left:46% ;
+    top:55%;
+    color:aliceblue;
+    font-size: small;
+}
+.content .color1-icon{
+ color: yellowgreen;
+    position: absolute;
+    left: 50%;
+    top:55%;
+    
+}
+.content .color2-icon{
+ color: black;
+    position: absolute;
+    left: 53%;
+    top:55%;
+    
+    
+}
+.content .color3-icon{
+ color: rgb(41, 41, 160);
+    position: absolute;
+    left: 56%;
+    top:55%;
+    z-index: 100;
+}
+ .bag-icon{
+    position: absolute;
+    right:50%;
+    bottom: 25%;
+    color: aliceblue;
+    z-index: 10;
+font-size: 20px;
+}
+.cart-icon{
+    position: absolute;
+    right:35%;
+    bottom: 25%;
+    color: aliceblue;
+    z-index: 10;
+font-size: 20px;
+}
+
+
+
+.orange{
+    background-color: rgb(223, 89, 40);
+    height:65%;
+    width:18% ;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    bottom: 15%;
+    z-index: 2;
+    border-radius: 0 50% 50% 0;
+    overflow: visible;
+}
+.shoe {
+    position: absolute;
+    width: 410px;
+    height: 200px;
+    left:-40px;
+    top:5px;
+    bottom:20px;
+   z-index: 10;
+  transform:  rotate(18deg);
+}
+.shoe img {
+   width: 100%;
+   height: auto;
+   display: block;
+   filter: drop-shadow(5px 8px 8px grey);
+}
+.arrow-icon {
+    color:azure;
+    position: absolute;
+    bottom: 60px;
+    left: 35%;
+    z-index: 20;
+}
+.arrow-icon i:hover {
+    color: black;
+    cursor: pointer;
+}
+@media (max-width:768px){
+body{
+    overflow-x: hidden;
+}
+.grey{
+    width: 92%;
+    left:4%;
+    height: 650px;
+}
+.orange{
+    width: 35%;
+    left:4%;
+    height:650px ;
+}
+.content h2{
+    left:42%;
+}
+.content .collection{
+    left:42%;
+}
+.content .Sneakers{
+    left:42%;
+}
+.content .price{
+    left: 42%;
+}
+.content .size{
+    left:42%;
+}
+.content .sizes-no{
+    left: 42%;
+    width: 150px;
+    word-spacing: 15px;
+}
+.content .color{
+    left: 42%;
+}
+.content .color1-icon{
+    left: 55%;
+}
+.content .color2-icon{
+    left:62%;
+}
+.shoe{
+    width:300px;
+    left:-30px;
+    top:180px;
+}
+.bag-icon{
+    left: 42%;
+    right: auto;
+    bottom: 8%;
+}
+.cart-icon{
+    right: 10%;
+    bottom: 8%;
+}
+}
